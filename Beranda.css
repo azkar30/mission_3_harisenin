@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* NAVIGATION BAR */
+
+header {
+    .navbar {
+        width: 100%;
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #3A35411F;
+    }
+}
+
+header .navbar nav {
+    width: 100%;
+    padding: 10px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+header .navbar .logo {
+    width: 194px;
+}
+
+header .navbar .user-avatar {
+    width: 44px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+header .navbar ul {
+    width: 100%;
+    text-align: right;
+    list-style-type: none;
+}
+
+header .navbar ul a {
+    text-decoration: none;
+    color: #333333;
+}
+
+header .navbar .menu-bar {
+    display: none;
+    color: #4A505C;
+}
+
+.home {
+    width: 100%;
+    background: #fcfaf1;
+    padding: 82px 100px;
+    row-gap: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section Pertama */
+
+.home .section-pertama {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(../assets/main1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.home .section-pertama .hero {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 40px 240px 12px 240px;
+    flex-direction: column;
+    text-align: center;
+}
+.home .section-pertama .hero {
+    h1 {
+        font-family: "Poppins";
+        font-weight: 700;
+        font-size: 48px;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+}
+
+.home .section-pertama .tombol-practice {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.home .section-pertama button {
+    width: 35%;
+    height: 42px;
+    background: #3ECF4C;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin: 16px 0 20px 0;
+    border: none;
+    padding: 0;
+    font-family: "DM Sans";
+    font-weight: 700;
+}
+
+/* Section Kedua */
+
+.home .section-kedua {
+    row-gap: 32px;
+}
+
+.home .section-kedua .title-hero {
+    h3 {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 32px;
+    }
+    
+    p {
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 16px;
+        color: #484848;
+    }
+}
+
+.home .section-kedua .title-hero {
+    ul {
+        list-style-type: none;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        gap: 2rem;
+        padding-top: 32px;
+        cursor: pointer;
+    }
+}
+
+.home .section-kedua .box {
+    padding: 32px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px 24px;
+
+}
+
+.form-card {
+    background-color: #FFFFFF;
+    width: 420px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.form-card {
+    .card-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .detail-card h6 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .profil-card {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+
+    .profil-card .p1 {
+        font-weight: bolder;
+    }
+
+    .profil-card p {
+        margin-left: 10px;
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .rating-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .rating-price img {
+        width: 151px;
+        height: 20px;
+    }
+
+    .rating-price h4 {
+        font-weight: 600;
+        font-size: 24px;
+        color: #3ECF4C;
+    }
+}
+
+/* Section Ketiga */
+
+.home .section-ketiga {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)) ,url(../assets/main3.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.home .section-ketiga .hero {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 70px 300px 40px 300px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home .section-ketiga .hero {
+    h3 {
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-size: 16px;
+        color: #F4F5FA;
+    }
+    .title-ketiga p {
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-size: 16px;
+        color: #C1C2C4;
+    }
+}
+.home .section-ketiga .hero {
+    input {
+        padding: 4px 20px;
+        border-radius: 10px;
+        width: 525px;
+        height: 58px;
+        /* background: rgba(255, 255, 255, 0.3); */
+    }
+    .filter.placeholder {
+        align-self: center;
+    }
+    button {
+        background-color: #FFBD3A;
+        color: #FFFFFF;
+        /* top: 49px;
+        right: 195px;
+        width: 10%;
+        height: 30%;
+        text-align: center; */
+        padding: 2px 18px;
+        border-radius: 10px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+        aspect-ratio: 1;
+        transform: translateX(-100%);
+        position: absolute;
+        right: 0%;
+        bottom: 47px;
+    }
+}
+
+.home .section-ketiga .call-to-action {
+    padding: 40px 0;
+    width: 100%;
+    position: relative;
+    border: none;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-top: 1px solid #3A35411F;
+}
+footer .information {
+    width: 100%;
+    padding: 70px 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .information {
+    .box-footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .category {
+        display: flex;
+        gap: 48px;
+    }
+
+    hr {
+        width: 1500px;
+    }
+}
+
+footer .information .information-company {
+    h4 {
+        font-weight: 700;
+        font-family: "DM Sans";
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    p {
+        font-weight: 400;
+        font-family: "DM Sans";
+        font-size: 16px;
+        padding-top: 12px;
+    }
+}
+
+footer .information .category {
+    p {
+        font-weight: 700,;
+        font-weight: bold;
+        font-family: "DM Sans";
+        font-size: 16px;
+    }
+
+    i {
+        display: none;
+    }
+
+    ul {
+        padding-top: 5px;
+    }
+
+    li {
+        list-style-type: none;
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 16px;
+        padding-top: 13px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    header .navbar .menu-bar {
+        display: block;
+        font-size: 20px;
+    }
+
+    header .navbar .user-avatar {
+        display: none;
+    }
+    
+    header .navbar ul {
+        display: none;
+    }
+
+    .home {
+        padding: 20px;
+        row-gap: 20px;
+    }
+
+
+    .home .section-pertama .hero {
+        padding: 20px;
+    }
+
+    .home .section-pertama .hero {
+        h1 {
+            font-size: 24px;
+        }
+    
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .home .section-pertama button {
+        width: 90%;
+        row-gap: 5px;
+    }
+
+    /* SECTION KEDUA */
+
+    .home .section-kedua .title-hero {
+        h3 {
+            font-size: 24px;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+        
+        p {
+            font-family: "DM Sans";
+            font-weight: 500;
+            font-size: 16px;
+            color: #484848;
+        }
+    }
+    
+    .home .section-kedua .title-hero {
+        ul {
+            list-style-type: none;
+            align-items: center;
+            display: flex;
+            width: 100%;
+            gap: 2rem;
+            padding-top: 20px;
+        }
+    }
+
+    .home .section-kedua .box {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .form-card {
+        width: 100%;
+        /* text-align: left; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .form-card {
+        .card-image {
+            object-fit: cover;
+            width: 120px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        .detail-card {
+            padding-left: 20px;
+        }
+        .detail-card h6 {
+            padding-left: 10px;
+            width: 240px;
+            margin-bottom: 0;
+            font-size: 20px;
+            display: block;
+        }
+
+        .detail-card p {
+            display: none;
+        }
+        
+        .profil-card {
+            width: 210px;
+            /* align-items: none; */
+            margin-bottom: 10px;
+            gap: 5px;
+        }
+
+        .profil-card p {
+            display: block;
+        }
+
+        .profil-card .p3 {
+            display: none;
+        }
+
+        .profil-card p {
+            font-family: "DM Sans";
+            font-weight: 400;
+            font-size: 14px;
+        }
+ 
+        .rating-price img {
+            width: 151px;
+            height: 20px;
+        }
+    
+        .rating-price h4 {
+            padding-left: 180px;
+            font-weight: 600;
+            font-size: 24px;
+            color: #3ECF4C;
+        }
+    }
+
+    /* SECTION KETIGA */
+
+    .home .section-ketiga .hero {
+        padding: 20px;
+    }
+    
+    .home .section-ketiga .hero {
+        h3 {
+            font-size: 24px;
+        }
+
+        .title-ketiga p {
+            font-size: 14px;
+        }
+    }
+
+    .home .section-ketiga .hero {
+        input {
+            padding: 4px 20px;
+            border-radius: 10px;
+            width: 100%;
+            height: 40px;
+            text-align: center;
+        }
+
+        button {
+            display: block;
+            padding-top: 0;
+            width: 100%;
+            height: 30%;
+            aspect-ratio: 0;
+
+            transform: 0;
+            right: -100%;
+            bottom: 0;
+        }
+    }
+
+    /* FOOTER */
+
+    footer .information {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    footer .box-footer {
+        display: flex;
+    }
+
+    footer .information {
+        .box-footer {
+            width: 100%;
+            display: block;
+            justify-content: none;
+        }
+    
+        .category {
+            padding-top: 10px;
+            display: block;
+            gap: 48px;
+        }
+    
+        hr {
+            width: 350px;
+        }
+    }
+    
+    footer .information .information-company {
+        h4 {
+            font-size: 14px;
+            padding-top: 10px;
+        }
+    
+        p {
+            font-size: 14px;
+        }
+    }
+    
+    footer .information .category .categorys {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .information .category {        
+        i {
+            display: block;
+            color: #3A35418A;
+        }
+
+        ul {
+            padding-top: 5px;
+        }
+    
+        li {
+            position: absolute;
+            display: none;
+        }
+    }
+
+    footer .information .box-footer {
+        .icon-footer {
+            z-index: 9999;
+            display: flex;
+            position: absolute;
+        }
+
+        p {
+            display: flex;
+        }
+    }
+}
